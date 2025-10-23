@@ -1,12 +1,12 @@
 import React from "react";
 import { Button, Typography } from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
-import Navbar from "../navbar";
+import LabNavbar from "./Navbar";
 
 export function LabHero() {
   return (
     <ThemeProvider>
-      <Navbar />
+      <LabNavbar />
       <header className="min-h-screen w-screen flex items-center bg-gradient-to-br from-gray-50 to-blue-50 relative px-8 py-20">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center">

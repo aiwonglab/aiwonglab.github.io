@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navbar from "../components/navbar";
+import LabNavbar from "../components/lab/Navbar";
 import LabFooter from "../components/lab/Footer";
 ---
 
@@ -8,7 +8,7 @@ import LabFooter from "../components/lab/Footer";
   title="Publications - AI Wong Lab"
   metaDescription="Research publications from AI Wong Lab on artificial intelligence and clinical informatics in critical care"
 >
-  <Navbar client:only="react" />
+  <LabNavbar client:only="react" />
 
   <main class="min-h-screen bg-white">
     <div class="container mx-auto px-8 py-20">
