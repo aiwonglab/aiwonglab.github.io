@@ -12,7 +12,7 @@ const publications = [
     year: "2025",
     tags: ["Health Equity", "EHR", "Arterial Blood Gas"],
     description: "Multi-center analysis revealing disparities in arterial blood gas testing practices across race and sex in US hospitals.",
-    link: "#",
+    link: "", // Link to be added when published
   },
   {
     title: "BOLD: Blood-gas and Oximetry Linked Dataset",
@@ -87,15 +87,19 @@ export function Research() {
                       </div>
                     </div>
                     <div className="lg:ml-4">
-                      <Button
-                        variant="text"
-                        color="blue"
-                        className="flex items-center gap-2"
-                        size="sm"
-                      >
-                        Read More
-                        <ArrowRightIcon className="w-4 h-4" />
-                      </Button>
+                      {pub.link && pub.link !== "#" && (
+                        <a href={pub.link} target="_blank" rel="noopener noreferrer">
+                          <Button
+                            variant="text"
+                            color="blue"
+                            className="flex items-center gap-2"
+                            size="sm"
+                          >
+                            Read More
+                            <ArrowRightIcon className="w-4 h-4" />
+                          </Button>
+                        </a>
+                      )}
                     </div>
                   </div>
                 </CardBody>
