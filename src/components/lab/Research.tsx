@@ -3,34 +3,43 @@ import { Typography, Card, CardBody, Button, Chip } from "@material-tailwind/rea
 import ThemeProvider from "../theme-provider";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 
-// Placeholder for published research - replace with actual publications
+// Featured recent publications
 const publications = [
   {
-    title: "Machine Learning in Critical Care: A Systematic Review",
-    authors: "Wong AI, et al.",
-    journal: "Critical Care Medicine",
+    title: "Differences in arterial blood gas testing by race and sex across 161 US hospitals in 4 EHR databases",
+    authors: "Matos J, Alwakeel M, Hao S, Naamani D, Struja T, Gichoya JW, Celi LA, McMahon T, King H, Cox CE, Kibbe WA, Hong C, Wong AI",
+    journal: "American Journal of Respiratory and Critical Care Medicine",
+    year: "2025",
+    tags: ["Health Equity", "EHR", "Arterial Blood Gas"],
+    description: "Multi-center analysis revealing disparities in arterial blood gas testing practices across race and sex in US hospitals.",
+    link: "#",
+  },
+  {
+    title: "BOLD: Blood-gas and Oximetry Linked Dataset",
+    authors: "Matos J, Struja T, Gallifant J, Nakayama LF, Charpignon ML, Liu X, Economou-Zavlanos N, Cardoso J, Johnson K, Bhavsar N, Gichoya JW, Celi LA, Wong AI",
+    journal: "Nature Scientific Data",
     year: "2024",
-    tags: ["Machine Learning", "ICU", "Review"],
-    description: "A comprehensive review of machine learning applications in intensive care units, evaluating clinical impact and implementation challenges.",
-    link: "#",
+    tags: ["Dataset", "Pulse Oximetry", "Open Science"],
+    description: "A comprehensive linked dataset of blood gas measurements and pulse oximetry readings for bias research and clinical validation.",
+    link: "https://www.nature.com/articles/s41597-024-03225-z",
   },
   {
-    title: "Predicting Sepsis Onset Using Electronic Health Records",
-    authors: "Wong AI, et al.",
-    journal: "JAMA Network Open",
-    year: "2023",
-    tags: ["Sepsis", "EHR", "Prediction"],
-    description: "Development and validation of a machine learning model for early sepsis detection in emergency department patients.",
-    link: "#",
+    title: "A Clinician's Guide to Understanding Bias in Critical Clinical Prediction Models",
+    authors: "Matos J, Gallifant J, Chowdhury A, Economou-Zavlanos N, Charpignon ML, Gichoya J, Celi LA, Nazer L, King H, Wong AK",
+    journal: "Critical Care Clinics",
+    year: "2024",
+    tags: ["Bias", "Machine Learning", "Clinical Decision Support"],
+    description: "Practical guidance for clinicians on identifying and addressing bias in AI-based prediction models used in critical care.",
+    link: "https://doi.org/10.1016/j.ccc.2024.05.011",
   },
   {
-    title: "Implementation of AI-Driven Clinical Decision Support",
-    authors: "Wong AI, et al.",
-    journal: "Journal of Medical Internet Research",
-    year: "2023",
-    tags: ["Clinical Decision Support", "Implementation"],
-    description: "Real-world implementation study of AI-based clinical decision support tools in acute care settings.",
-    link: "#",
+    title: "Utility of skin tone on pulse oximetry in critically ill patients: a prospective cohort study",
+    authors: "Hao S, Dempsey K, Matos J, Cox CE, Rotemberg V, Gichoya JW, Kibbe W, Hong C, Wong AI",
+    journal: "Critical Care Explorations",
+    year: "2024",
+    tags: ["Pulse Oximetry", "Health Equity", "Prospective Study"],
+    description: "Prospective evaluation of skin tone's impact on pulse oximetry accuracy in critically ill patients.",
+    link: "https://doi.org/10.1097/CCE.0000000000001133",
   },
 ];
 
