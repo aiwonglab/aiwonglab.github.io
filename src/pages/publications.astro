@@ -1,0 +1,95 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from "../components/navbar";
+import LabFooter from "../components/lab/Footer";
+---
+
+<Layout
+  title="Publications - AI Wong Lab"
+  metaDescription="Research publications from AI Wong Lab on artificial intelligence and clinical informatics in critical care"
+>
+  <Navbar client:only="react" />
+
+  <main class="min-h-screen bg-white">
+    <div class="container mx-auto px-8 py-20">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Publications</h1>
+        <p class="text-xl text-gray-600 mb-12">
+          Peer-reviewed research publications from our lab. All work focuses on developing
+          and validating AI and informatics solutions for critical and acute care.
+        </p>
+
+        <div class="space-y-8">
+          <!-- 2024 Publications -->
+          <section>
+            <h2 class="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-gray-200 pb-2">2024</h2>
+            <div class="space-y-6">
+              <div class="pl-4 border-l-4 border-blue-500">
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                  Machine Learning in Critical Care: A Systematic Review
+                </h3>
+                <p class="text-gray-700 mb-1">
+                  Wong AI, et al.
+                </p>
+                <p class="text-sm text-gray-600 mb-2">
+                  <span class="font-semibold">Critical Care Medicine</span> • 2024
+                </p>
+                <p class="text-gray-700 text-sm mb-2">
+                  A comprehensive review of machine learning applications in intensive care units,
+                  evaluating clinical impact and implementation challenges.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- 2023 Publications -->
+          <section>
+            <h2 class="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-gray-200 pb-2">2023</h2>
+            <div class="space-y-6">
+              <div class="pl-4 border-l-4 border-blue-500">
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                  Predicting Sepsis Onset Using Electronic Health Records
+                </h3>
+                <p class="text-gray-700 mb-1">
+                  Wong AI, et al.
+                </p>
+                <p class="text-sm text-gray-600 mb-2">
+                  <span class="font-semibold">JAMA Network Open</span> • 2023
+                </p>
+                <p class="text-gray-700 text-sm mb-2">
+                  Development and validation of a machine learning model for early sepsis
+                  detection in emergency department patients.
+                </p>
+              </div>
+
+              <div class="pl-4 border-l-4 border-blue-500">
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                  Implementation of AI-Driven Clinical Decision Support
+                </h3>
+                <p class="text-gray-700 mb-1">
+                  Wong AI, et al.
+                </p>
+                <p class="text-sm text-gray-600 mb-2">
+                  <span class="font-semibold">Journal of Medical Internet Research</span> • 2023
+                </p>
+                <p class="text-gray-700 text-sm mb-2">
+                  Real-world implementation study of AI-based clinical decision support tools
+                  in acute care settings.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="mt-12 p-6 bg-gray-50 rounded-lg">
+          <p class="text-gray-700">
+            <strong>Note:</strong> This is a placeholder publication list. Please update with
+            actual publications from your research.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <LabFooter client:only="react" />
+</Layout>
