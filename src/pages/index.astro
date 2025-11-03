@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LabHero from "../components/lab/Hero";
+import Mission from "../components/lab/Mission";
+import Research from "../components/lab/Research";
+import Team from "../components/lab/Team";
+import Collaborate from "../components/lab/Collaborate";
+import LabFooter from "../components/lab/Footer";
+---
+
+<Layout
+  title="AI Wong Lab - Critical and Acute Care Informatics"
+  metaDescription="Research lab focused on artificial intelligence and clinical informatics for critical and acute care, led by A. Ian Wong, MD, PhD"
+>
+  <main>
+    <LabHero client:only="react" />
+    <Mission client:only="react" />
+    <Research client:only="react" />
+    <Team client:only="react" />
+    <Collaborate client:only="react" />
+    <LabFooter client:only="react" />
+  </main>
+</Layout>
