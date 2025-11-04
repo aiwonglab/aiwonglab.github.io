@@ -87,7 +87,7 @@ export function Team() {
           {students.length > 0 && (
             <div className="max-w-6xl mx-auto mb-20">
               <Typography variant="h4" color="blue-gray" className="mb-8 text-center font-bold">
-                Students & Research Staff
+                Current Team
               </Typography>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {students.map((student, index) => (
@@ -105,9 +105,17 @@ export function Team() {
                       <Typography variant="small" color="blue" className="mb-3">
                         {student.role}
                       </Typography>
-                      <Typography color="gray" className="text-sm">
+                      <Typography color="gray" className="text-sm mb-3">
                         {student.bio}
                       </Typography>
+                      {student.googleScholar && (
+                        <a href={student.googleScholar} target="_blank" rel="noopener noreferrer">
+                          <Button variant="text" size="sm" className="flex items-center gap-1 mx-auto">
+                            <AcademicCapIcon className="w-4 h-4" />
+                            Scholar
+                          </Button>
+                        </a>
+                      )}
                     </CardBody>
                   </Card>
                 ))}
@@ -164,15 +172,29 @@ export function Team() {
                 {alumni.map((person, index) => (
                   <Card key={index} className="shadow-sm">
                     <CardBody className="text-center">
+                      <Avatar
+                        src={person.image}
+                        alt={person.name}
+                        size="xl"
+                        className="w-24 h-24 mx-auto mb-4 border-2 border-gray-200"
+                      />
                       <Typography variant="h6" color="blue-gray" className="mb-1 font-bold">
                         {person.name}
                       </Typography>
                       <Typography variant="small" color="gray" className="mb-2">
                         {person.role}
                       </Typography>
-                      <Typography color="gray" className="text-sm">
+                      <Typography color="gray" className="text-sm mb-3">
                         {person.bio}
                       </Typography>
+                      {person.googleScholar && (
+                        <a href={person.googleScholar} target="_blank" rel="noopener noreferrer">
+                          <Button variant="text" size="sm" className="flex items-center gap-1 mx-auto">
+                            <AcademicCapIcon className="w-4 h-4" />
+                            Scholar
+                          </Button>
+                        </a>
+                      )}
                     </CardBody>
                   </Card>
                 ))}

@@ -34,7 +34,7 @@ export const teamMembers: TeamMember[] = [
     credentials: "MD, PhD",
     image: "/images/team/wong_ian.jpg",
     email: "your.email@institution.edu", // Optional: add your contact
-    googleScholar: "https://scholar.google.com/your-profile", // Optional
+    googleScholar: "https://scholar.google.com/citations?user=HMyXWb4AAAAJ&hl=en&oi=ao",
     // twitter: "https://twitter.com/yourhandle", // Optional
     // linkedin: "https://linkedin.com/in/yourprofile", // Optional
   },
