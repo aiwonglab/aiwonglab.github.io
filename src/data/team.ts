@@ -57,6 +57,7 @@ export const students: TeamMember[] = [
     bio: "Dr. Alwakeel is a clinical informatics fellow focused on AI applications in healthcare and clinical decision support systems.",
     credentials: "MD",
     image: "/images/team/alwakeel_mahmoud.jpg",
+    googleScholar: "https://scholar.google.com/citations?user=WYlIE7EAAAAJ&hl=en&oi=sra",
   },
   {
     name: "Brenda Zhang",
@@ -96,12 +97,14 @@ export const alumni: TeamMember[] = [
     role: "Research Assistant → PhD Student, University of Oxford",
     bio: "Joao contributed to research on AI bias in medical devices and clinical data analysis during his time in the lab.",
     image: "/images/team/matos_joao.jpg",
+    googleScholar: "https://scholar.google.com/citations?user=PMd9DyQAAAAJ&hl=en&oi=sra",
   },
   {
     name: "Sicheng Hao",
     role: "Research Assistant → PhD Student, National University of Singapore",
     bio: "Sicheng worked on pulse oximetry research and health equity studies in critical care.",
     image: "/images/team/hao_sicheng.jpg",
+    googleScholar: "https://scholar.google.com/citations?user=so57stwAAAAJ&hl=en&oi=ao",
   },
   {
     name: "Katelyn Dempsey, MPH",
