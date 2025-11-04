@@ -12,7 +12,7 @@ const publications = [
     year: "2025",
     tags: ["Health Equity", "EHR", "Arterial Blood Gas"],
     description: "Multi-center analysis revealing disparities in arterial blood gas testing practices across race and sex in US hospitals.",
-    link: "", // Link to be added when published
+    link: "https://doi.org/10.1164/rccm.202406-1242OC",
   },
   {
     title: "BOLD: Blood-gas and Oximetry Linked Dataset",
