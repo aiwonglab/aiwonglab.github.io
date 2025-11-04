@@ -13,7 +13,7 @@ export function LabFooter() {
             {/* About */}
             <div>
               <Typography variant="h5" className="mb-4 font-bold">
-                AI Wong Lab
+                AI (Wong) Lab
               </Typography>
               <Typography className="text-gray-300 text-sm">
                 Advancing critical and acute care through artificial intelligence
@@ -59,7 +59,7 @@ export function LabFooter() {
 
           <div className="border-t border-gray-700 pt-8 text-center">
             <Typography className="text-gray-400 text-sm">
-              © {currentYear} AI Wong Lab. All rights reserved.
+              © {currentYear} AI (Wong) Lab. All rights reserved.
             </Typography>
           </div>
         </div>

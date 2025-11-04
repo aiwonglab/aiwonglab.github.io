@@ -53,8 +53,7 @@ export function Research() {
               Recent Publications
             </Typography>
             <Typography variant="lead" color="blue-gray" className="text-lg">
-              Our research focuses on developing and validating AI solutions for critical and acute care.
-              All work is peer-reviewed and published in leading medical and informatics journals.
+              Our research examines AI applications in critical and acute care settings. We study bias in medical devices, evaluate machine learning models, and develop tools to support clinical decision-making.
             </Typography>
           </div>
 

@@ -1,6 +1,6 @@
 # Team Data Configuration
 
-This directory contains data files for the AI Wong Lab website.
+This directory contains data files for the AI (Wong) Lab website.
 
 ## Adding Team Members
 

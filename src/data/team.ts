@@ -51,13 +51,19 @@ export const teamMembers: TeamMember[] = [
 
 // Research Assistants, Graduate Students, etc.
 export const students: TeamMember[] = [
-  // Add students/research assistants here:
-  // {
-  //   name: "John Smith",
-  //   role: "PhD Candidate",
-  //   bio: "John is working on...",
-  //   image: "/images/team/smith.jpg",
-  // },
+  {
+    name: "Mahmoud Alwakeel, MD",
+    role: "Clinical Informatics Fellow",
+    bio: "Dr. Alwakeel is a clinical informatics fellow focused on AI applications in healthcare and clinical decision support systems.",
+    credentials: "MD",
+    image: "/images/team/alwakeel.jpg",
+  },
+  {
+    name: "Suim Park",
+    role: "Research Assistant",
+    bio: "Suim contributes to research projects in clinical informatics and data analysis.",
+    image: "/images/team/park.jpg",
+  },
 ];
 
 // Collaborators and Partners
@@ -73,11 +79,29 @@ export const collaborators: Collaborator[] = [
 
 // Alumni
 export const alumni: TeamMember[] = [
-  // Add alumni here:
-  // {
-  //   name: "Former Member",
-  //   role: "Former Position → Current Position",
-  //   bio: "Brief description of their time in the lab and current position.",
-  //   image: "/images/team/alumni.jpg",
-  // },
+  {
+    name: "Joao Matos, MS",
+    role: "Research Assistant → PhD Student, University of Oxford",
+    bio: "Joao contributed to research on AI bias in medical devices and clinical data analysis during his time in the lab.",
+    image: "/images/team/matos.jpg",
+  },
+  {
+    name: "Sicheng Hao",
+    role: "Research Assistant → PhD Student, National University of Singapore",
+    bio: "Sicheng worked on pulse oximetry research and health equity studies in critical care.",
+    image: "/images/team/hao.jpg",
+  },
+  {
+    name: "Katelyn Dempsey, MPH",
+    role: "Research Coordinator → Clinical Research Coordinator, UNC",
+    bio: "Katelyn contributed to health equity research and pulse oximetry studies.",
+    credentials: "MPH",
+    image: "/images/team/dempsey.jpg",
+  },
+  {
+    name: "Bob Zhang",
+    role: "Research Assistant → Data Scientist, Lenovo",
+    bio: "Bob worked on machine learning projects and clinical data analysis.",
+    image: "/images/team/zhang.jpg",
+  },
 ];

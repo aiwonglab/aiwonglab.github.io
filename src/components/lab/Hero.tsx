@@ -15,7 +15,7 @@ export function LabHero() {
               color="blue-gray"
               className="mb-6 leading-tight font-black text-5xl lg:text-6xl"
             >
-              AI Wong Lab
+              AI (Wong) Lab
             </Typography>
             <Typography
               variant="h3"
@@ -29,8 +29,7 @@ export function LabHero() {
               color="blue-gray"
               className="mb-12 text-lg lg:text-xl max-w-3xl mx-auto leading-relaxed"
             >
-              Advancing patient care through artificial intelligence and clinical informatics research.
-              Developing evidence-based solutions for critical and acute care settings.
+              Research in artificial intelligence and clinical informatics to support better patient care in critical and acute care settings.
             </Typography>
             <div className="flex flex-wrap justify-center gap-4">
               <a href="#research">

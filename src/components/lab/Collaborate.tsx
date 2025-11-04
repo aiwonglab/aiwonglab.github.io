@@ -11,17 +11,17 @@ const opportunities = [
   {
     icon: AcademicCapIcon,
     title: "Research Collaboration",
-    description: "Partner with us on cutting-edge AI and informatics research projects in critical care.",
+    description: "Work with us on AI and informatics research projects in critical care settings.",
   },
   {
     icon: UsersIcon,
     title: "Join Our Team",
-    description: "We welcome talented researchers, clinicians, and data scientists to contribute to our mission.",
+    description: "Opportunities for researchers, clinicians, and data scientists interested in our work.",
   },
   {
     icon: CurrencyDollarIcon,
     title: "Funding & Sponsorship",
-    description: "Support our research through grants, sponsorships, and institutional partnerships.",
+    description: "Information about supporting our research through grants and institutional partnerships.",
   },
 ];
 
@@ -35,8 +35,8 @@ export function Collaborate() {
               Collaborate With Us
             </Typography>
             <Typography variant="lead" color="blue-gray" className="text-lg">
-              We are actively seeking collaborators, team members, and sponsors
-              to advance our research in critical care AI and informatics.
+              We welcome opportunities to work with researchers, clinicians, and organizations
+              interested in critical care AI and informatics.
             </Typography>
           </div>
 

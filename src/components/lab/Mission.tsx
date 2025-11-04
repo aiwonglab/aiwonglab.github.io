@@ -12,22 +12,22 @@ const focusAreas = [
   {
     icon: HeartIcon,
     title: "Critical Care AI",
-    description: "Developing machine learning models to improve patient outcomes in intensive care settings.",
+    description: "Exploring machine learning approaches to support clinical decision-making in intensive care settings.",
   },
   {
     icon: CpuChipIcon,
     title: "Clinical Informatics",
-    description: "Leveraging electronic health records and clinical data to drive evidence-based practice.",
+    description: "Analyzing electronic health record data to identify patterns and inform evidence-based practice.",
   },
   {
     icon: AcademicCapIcon,
     title: "Decision Support",
-    description: "Building intelligent systems to assist clinicians in complex diagnostic and therapeutic decisions.",
+    description: "Developing systems that provide clinicians with relevant information for complex diagnostic and treatment decisions.",
   },
   {
     icon: UserGroupIcon,
-    title: "Implementation Science",
-    description: "Studying the real-world adoption and impact of AI tools in healthcare environments.",
+    title: "AI Evaluation",
+    description: "Examining how AI tools perform in real-world healthcare settings and their impact on clinical workflows.",
   },
 ];
 
@@ -42,9 +42,9 @@ export function Mission() {
               Our Mission
             </Typography>
             <Typography variant="lead" color="blue-gray" className="text-lg leading-relaxed">
-              To advance critical and acute care through rigorous research in artificial intelligence
-              and clinical informatics, translating cutting-edge technology into practical solutions
-              that improve patient outcomes and support healthcare professionals.
+              We conduct research in artificial intelligence and clinical informatics to understand
+              how technology can support critical and acute care. Our work focuses on developing
+              practical tools that help clinicians make informed decisions and improve patient outcomes.
             </Typography>
           </div>
 
