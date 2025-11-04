@@ -1,0 +1,7 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#E74C3C"/>
+  <text x="50%" y="40%" font-family="Arial, sans-serif" font-size="120" font-weight="bold"
+        fill="white" text-anchor="middle" dominant-baseline="middle">S.P.</text>
+  <text x="50%" y="65%" font-family="Arial, sans-serif" font-size="24"
+        fill="rgba(255,255,255,0.9)" text-anchor="middle" dominant-baseline="middle">Suim Park</text>
+</svg>

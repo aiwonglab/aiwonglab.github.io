@@ -32,7 +32,7 @@ export const teamMembers: TeamMember[] = [
     role: "Principal Investigator",
     bio: "Dr. Wong leads research at the intersection of artificial intelligence and critical care medicine. His work focuses on developing clinically-validated AI tools for acute care settings, with emphasis on health equity and bias in medical devices.",
     credentials: "MD, PhD",
-    image: "/images/team/wong.jpg", // Add your photo to /public/images/team/
+    image: "/images/team/wong_ian.jpg",
     email: "your.email@institution.edu", // Optional: add your contact
     googleScholar: "https://scholar.google.com/your-profile", // Optional
     // twitter: "https://twitter.com/yourhandle", // Optional
@@ -56,13 +56,25 @@ export const students: TeamMember[] = [
     role: "Clinical Informatics Fellow",
     bio: "Dr. Alwakeel is a clinical informatics fellow focused on AI applications in healthcare and clinical decision support systems.",
     credentials: "MD",
-    image: "/images/team/alwakeel.jpg",
+    image: "/images/team/alwakeel_mahmoud.jpg",
+  },
+  {
+    name: "Brenda Zhang",
+    role: "Master's Student, Duke Biostatistics & Bioinformatics",
+    bio: "Brenda is a master's student contributing to research in clinical informatics and biostatistics.",
+    image: "/images/team/zhang_brenda.jpg",
+  },
+  {
+    name: "Aashish Cheruvu",
+    role: "Undergraduate Student, Duke Biomedical Engineering",
+    bio: "Aashish is an undergraduate researcher working on AI and medical device projects.",
+    image: "/images/team/cheruvu_aashish.jpg",
   },
   {
     name: "Suim Park",
     role: "Research Assistant",
     bio: "Suim contributes to research projects in clinical informatics and data analysis.",
-    image: "/images/team/park.jpg",
+    image: "/images/team/park_suim.jpg",
   },
 ];
 
@@ -83,25 +95,25 @@ export const alumni: TeamMember[] = [
     name: "Joao Matos, MS",
     role: "Research Assistant → PhD Student, University of Oxford",
     bio: "Joao contributed to research on AI bias in medical devices and clinical data analysis during his time in the lab.",
-    image: "/images/team/matos.jpg",
+    image: "/images/team/matos_joao.jpg",
   },
   {
     name: "Sicheng Hao",
     role: "Research Assistant → PhD Student, National University of Singapore",
     bio: "Sicheng worked on pulse oximetry research and health equity studies in critical care.",
-    image: "/images/team/hao.jpg",
+    image: "/images/team/hao_sicheng.jpg",
   },
   {
     name: "Katelyn Dempsey, MPH",
     role: "Research Coordinator → Clinical Research Coordinator, UNC",
     bio: "Katelyn contributed to health equity research and pulse oximetry studies.",
     credentials: "MPH",
-    image: "/images/team/dempsey.jpg",
+    image: "/images/team/dempsey_katelyn.jpg",
   },
   {
     name: "Bob Zhang",
     role: "Research Assistant → Data Scientist, Lenovo",
     bio: "Bob worked on machine learning projects and clinical data analysis.",
-    image: "/images/team/zhang.jpg",
+    image: "/images/team/zhang_bob.jpg",
   },
 ];
