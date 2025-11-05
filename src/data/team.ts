@@ -115,7 +115,7 @@ export const alumni: TeamMember[] = [
   },
   {
     name: "Bob Zhang",
-    role: "Research Assistant → Data Scientist, Lenovo",
+    role: "Research Assistant → ML Engineer, Lenovo",
     bio: "Bob worked on machine learning projects and clinical data analysis.",
     image: "/images/team/zhang_bob.jpg",
   },
